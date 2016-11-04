@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 	
+	<link rel="stylesheet" type="text/css" href="css/Animate.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+<body id='body'>
+	
+	<div class="analogClock">
+		<svg width="140px" height="140px">
+			<circle id="clock-face" cx="70" cy="70" r="65" />
+				<line id="h-hand" x1="70" y1="70" x2="70" y2="38" />
+				<line id="m-hand" x1="70" y1="70" x2="70" y2="20" />
+				<line id="s-hand" x1="70" y1="70" x2="70" y2="12" />
+				<!-- <line id="h-hand" x1="70" y1="70" x2="70" y2="38"> -->
+				<text x="62" y="18">12</text>
+				<text x="126" y="76">3</text>
+				<text x="66" y="130">6</text>
+				<text x="7" y="76">9</text>
+		</svg>
+		<div id="digitalClock">
+			<span id="hrs">00</span>
+			<span>:</span>
+			<span id="minutes">00</span>
+			<span>:</span>
+			<span id="seconds">00</span>
+			<span id='suffix'>--</span>
+		</div>
+	</div>
+	
+
+  
+	<!-- Latest compiled and minified JavaScript downloaded locally-->
+	<script src ="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	 <script src="js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

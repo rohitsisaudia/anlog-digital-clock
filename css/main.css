@@ -1,0 +1,40 @@
+body{
+
+	margin:0;
+	padding: 0;
+	text-align: center;
+
+}
+
+.analogClock{
+	width:140px;
+	height:140px;
+}
+
+#clock-face{
+	stroke: black;
+	stroke-width:2px;
+	fill:grey;
+	background-image: url("../img/fire.jpg");
+}
+
+#digitalClock{
+	font-size:18px;
+}
+
+#h-hand, #m-hand, #s-hand{
+	stroke:black;
+	stroke-linecap: round;
+}
+
+#h-hand{
+	stroke-width:3px;
+}
+
+#m-hand{
+	stroke-width:2px;
+}
+
+#s-hand{
+	stroke-width:1px;
+}
